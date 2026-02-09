@@ -1,0 +1,67 @@
+# DIGIYLYFE — Root Domain Redirect
+
+Ce repository sert uniquement de **pont de redirection** pour le domaine principal :
+
+👉 https://digiylyfe.com
+
+## 🎯 Objectif
+
+Lorsque quelqu’un visite le domaine racine :
+
+https://digiylyfe.com
+
+il est automatiquement redirigé vers la plateforme DIGIY :
+
+https://apps.digiylyfe.com
+
+Ce dépôt existe pour séparer clairement :
+
+| Domaine | Rôle |
+|---|---|
+| digiylyfe.com | Porte d’entrée publique |
+| apps.digiylyfe.com | Hub des applications DIGIY |
+
+---
+
+## ⚙️ Fonctionnement
+
+GitHub Pages sert une page HTML minimale contenant une redirection instantanée :
+
+- Meta refresh
+- Canonical link
+- JavaScript fallback
+
+Cela garantit une redirection fiable sur :
+- mobile
+- desktop
+- navigateurs anciens
+- réseaux lents
+
+---
+
+## 🧩 Pourquoi ce repo existe
+
+GitHub Pages ne permet qu’un seul domaine principal par dépôt.
+
+La plateforme DIGIY utilise donc deux dépôts distincts :
+
+1. digiy-royal → sert apps.digiylyfe.com  
+2. digiylyfe-com → sert digiylyfe.com (redirection)
+
+Cette séparation évite :
+- les boucles de redirection
+- les erreurs 404
+- les conflits DNS
+
+---
+
+## 🚀 Statut
+
+Redirection permanente active vers :
+
+https://apps.digiylyfe.com
+
+---
+
+DIGIYLYFE ♾️  
+L’Afrique enracinée, connectée au monde.
